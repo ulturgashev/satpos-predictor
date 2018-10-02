@@ -1,0 +1,2 @@
+ADD_SUBDIRECTORY(Prediction)
+ADD_SUBDIRECTORY(prediction-qt)
