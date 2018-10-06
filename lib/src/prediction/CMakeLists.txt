@@ -1,6 +1,7 @@
 PROJECT(prediction)
 
 ADD_DEFINITIONS(-D_USE_MATH_DEFINES)
+
 SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fPIC -fvisibility=hidden")
 
 SET(HEADERS

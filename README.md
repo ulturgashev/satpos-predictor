@@ -5,5 +5,6 @@
 
 ## TODO
 * build deb packages
-* run tests
+* fix datetime test
 * auto code-style formater
+* add ci

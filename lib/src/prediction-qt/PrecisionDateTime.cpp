@@ -8,7 +8,6 @@ namespace Core
 		: dateTime_(QDateTime::fromMSecsSinceEpoch(time))
 		, offset_(0.0)
 	{
-
 	}
 
 	PrecisionDateTime::PrecisionDateTime(const QDateTime &dateTime, double offset)

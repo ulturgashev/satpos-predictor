@@ -5,7 +5,7 @@
 #include <Almanach.h>
 #include <AglStream.h>
 
-constexpr auto filename = "../../../tests/prediction-qt/samples/MCCJ_170102.agl";
+constexpr auto filename = "../../../../lib/tests/prediction-qt/samples/MCCJ_170102.agl";
 
 TEST(AglStreamTest, ReadTest)
 {
@@ -18,7 +18,6 @@ TEST(AglStreamTest, ReadTest)
 	stream >> almanach;
 
 	ASSERT_TRUE(almanach.isValid());
-
 	ASSERT_EQ(almanach.number(), 1);
 	ASSERT_EQ(almanach.literNumber(), 1);
 	ASSERT_EQ(almanach.health(), true);

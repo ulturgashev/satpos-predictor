@@ -2,7 +2,7 @@
 
 #include "Predictor.h"
 
-constexpr auto filename = "../../../tests/prediction-qt/samples/MCCJ_170102.agl";
+constexpr auto filename = "../../../../lib/tests/prediction-qt/samples/MCCJ_170102.agl";
 
 TEST(PredictiorTest, ReadAglFileTest)
 {
